@@ -1,0 +1,113 @@
+body {
+  border: 2px solid grey;
+  margin: 3%;
+  color: grey;
+  font-family: serif;
+}
+header {
+  text-align: center;
+}
+/* setting border to  input form */
+.border {
+  border-top: 2px solid grey;
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
+#flex {
+  display: flex;
+  border-bottom: 2px solid grey;
+  padding-bottom: 15px;
+}
+#flex div {
+  width: 50%;
+}
+/* applying style to buttons div */
+.button {
+  height: 50px;
+  width: 150px;
+  display: flex;
+}
+/* applying style to buttons icon */
+.button i {
+  padding-top: 5%;
+  padding-left: 5%;
+  color: white;
+  font-size: 30px;
+  width: 30%;
+}
+
+#delete-button {
+  margin-top: -64px;
+  margin-left: 50%;
+  background-color: red;
+}
+
+#add-button {
+  margin-left: 420px;
+  background-color: black;
+}
+/* applying style to buttons */
+.button button {
+  color: white;
+  border: none;
+  outline: none;
+  display: inline-block;
+  height: 100%;
+  font-size: 16px;
+}
+#add-button button {
+  background-color: black;
+}
+
+#delete-button button {
+  background-color: red;
+}
+.button a {
+  padding-left: 8px;
+}
+
+/* applying style to list items */
+.list li {
+  border-top: 2px solid grey;
+  list-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  height: 50px;
+  align-items: center;
+}
+
+.list i {
+  font-size: 30px;
+  color: black;
+}
+/* style to checkbox */
+#select-bar {
+  position: absolute;
+  height: 70%;
+  left: 0%;
+}
+/* style to description,date */
+#info {
+  position: absolute;
+
+  left: 20%;
+}
+#info i {
+  padding-right: 5px;
+}
+/* style to category */
+.category {
+  position: absolute;
+  width: 10%;
+  background-color: aqua;
+  left: 85%;
+  text-align: center;
+  height: 70%;
+}
+
+/* removing borders of input fields */
+input {
+  border: none;
+  outline: none;
+}
